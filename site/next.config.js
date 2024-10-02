@@ -2,10 +2,10 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'The Lost Marble Kasm Registry',
+    description: 'Kasm registry store for the weird',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
+    listUrl: 'https://semtex1987.github.io/repositoryname/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
