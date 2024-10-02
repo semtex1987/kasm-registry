@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'The Lost Marble Kasm Registry',
     description: 'Kasm registry store for the weird',
     icon: '/img/logo.svg',
-    listUrl: 'https://semtex1987.github.io/kasm-registry/',
+    listUrl: 'https://semtex1987.github.io/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
