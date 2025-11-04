@@ -1,0 +1,40 @@
+{
+  "description": "Asciiville, Neovim, Spiderfoot, and Wing all in one workspace",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "deluxe.png",
+  "friendly_name": "Deluxe Desktop",
+  "run_config": {
+    "hostname": "kasm-deluxe"
+  },
+  "exec_config": {
+    "first_launch": {
+      "user": "root",
+      "cmd": "bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+    }
+  },
+  "categories": [
+    "Desktop",
+    "Development",
+    "Productivity"
+  ],
+  "architecture": [
+    "amd64"
+  ],
+  "cores": 2,
+  "memory": 5536,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "doctorwhen/kasm:1.16.0-rolling-daily",
+      "uncompressed_size_mb": 14900,
+      "available_tags": [
+        "develop",
+        "1.16.0",
+        "1.16.0-rolling-weekly",
+        "1.16.0-rolling-daily"
+      ]
+    }
+  ]
+}

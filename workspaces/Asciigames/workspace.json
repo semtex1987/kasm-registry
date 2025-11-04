@@ -1,0 +1,40 @@
+{
+  "description": "Collection of Ascii Games",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "games.png",
+  "friendly_name": "Ascii Games",
+  "cores": 2,
+  "memory": 4096,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": {
+    "hostname": "kasm-games"
+  },
+  "exec_config": {
+    "first_launch": {
+      "user": "root",
+      "cmd": "bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+    }
+  },
+  "categories": [
+    "Games",
+    "Desktop",
+    "Productivity"
+  ],
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "doctorwhen/kasm:1.16.0-rolling-daily",
+      "uncompressed_size_mb": 12700,
+      "available_tags": [
+        "develop",
+        "1.16.0",
+        "1.16.0-rolling-weekly",
+        "1.16.0-rolling-daily"
+      ]
+    }
+  ]
+}
