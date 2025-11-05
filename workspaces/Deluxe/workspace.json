@@ -26,7 +26,7 @@
   "cpu_allocation_method": "Inherit",
   "compatibility": [
     {
-      "version": "1.16.x",
+      "version": "1.18.x",
       "image": "doctorwhen/kasm:1.16.0-rolling-daily",
       "uncompressed_size_mb": 14900,
       "available_tags": [
